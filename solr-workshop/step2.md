@@ -30,7 +30,7 @@ In a real search results page, you may want 10 results per page, and a way to te
 
 Searching for multiple terms defaults to an `OR`. So, `q=name:video ipod` is the asking Solr for matches `where name contains video OR ipod`. 
 
-As we're using the HTTP endpoint for search, we must URL-encode a space ` ` with `%20`. 
+As we're using the HTTP endpoint for search, we must URL-encode a space with `%20`. 
 
 `curl "http://localhost:8983/solr/techproducts/select?indent=on&fl=name,score&q=name:video%20ipod"`{{execute}}
 
