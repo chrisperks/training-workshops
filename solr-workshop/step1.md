@@ -10,7 +10,7 @@ Let's check that the container is now running:
 
 You can see the `ID`, `NAME` and `STATUS` of our new container. 
 
-Now, we want to connect to our Solr continer and begin running commands:
+Now, we want to connect to our Solr container and begin running commands:
 
 `docker exec -it solr /bin/bash`{{execute}}
 
