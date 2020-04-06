@@ -2,7 +2,7 @@ Load a function from a `.py` file
 
 `kubeless function deploy formatter --runtime python2.7 \
                               --handler formatter.handler \
-                              --from-file upper.py`{{execute}}
+                              --from-file formatter.py`{{execute}}
 
 Keep checking for the function to come online
 
