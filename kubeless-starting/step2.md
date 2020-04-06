@@ -1,16 +1,16 @@
 Load a function from a `.py` file
 
-`kubeless function deploy upper --runtime python2.7 \
-                              --handler upper.handler \
+`kubeless function deploy formatter --runtime python2.7 \
+                              --handler formatter.handler \
                               --from-file upper.py`{{execute}}
 
 Keep checking for the function to come online
 
 `kubeless function ls`{{execute}}
 
-Take a look in the sample `upper.py` file
+Take a look in the sample `formatter.py` file
 
-`cat upper.py`{{execute}}
+`cat formatter.py`{{execute}}
 
 Some facts while we wait: 
 
