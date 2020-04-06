@@ -13,3 +13,8 @@ Show the pods created during our installation
 Show the state of our latest deployment
 
 `kubectl get deployment -n kubeless`{{execute}}
+
+#### Further reading
+
+- [How Kubernetes deployments work](https://www.youtube.com/watch?v=mNK14yXIZF4)
+- [Organizing Kubernetes with Namespaces](https://www.youtube.com/watch?v=xpnZX3if9Tc)
