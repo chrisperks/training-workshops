@@ -1,3 +1,3 @@
-`kubeless function logs toy`{{execute}}
+`kubeless function logs upper`{{execute}}
 
-`kubeless function describe toy`{{execute}}
+`kubeless function describe upper`{{execute}}
